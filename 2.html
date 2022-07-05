@@ -3,54 +3,100 @@
 <head>
     <title>톰크루즈 영화 - 미션 임파서블 </title>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
 </head>
+    <style>
+        body{
+            margin:0;
+        }
+        a {color:black;
+            text-decoration: none;
+        }
+       
+        h1 {
+          font-size:45px;  
+            text-align:center;
+            border-bottom:1px solid gray;
+            margin:0;
+            padding: 20px;
+        }
+        ol{
+            border-right:1px solid gray;
+            width: 150px;
+            margin: 0;
+            padding: 20px;
+        }
+        #grid{
+            display:grid;
+            grid-template-columns: 200px 1fr;
+        }
+        #grid ol{
+            padding-left:32px;
+        }
+        #grid #article{
+            padding-left:25px;
+        }
+        @media (max-width:800px){
+            #grid{
+            display:block;
+            }
+            ol{
+            border-right:none}
+            h1 {
+border-bottom:none}
+        }
+    
+    </style>
 <body>
 <h1><a href="톰크루즈 영화">톰크루즈 영화</a></h1>
-    <ol>
-        <li><a href="1.html"> 탑건</a></li>
-        <li><a href="2.html"> 미션 임파서블 </a></li>
-        <li><a href="3.html"> 엣지 오브 투모로우</a></li> 
-    </ol>
-    <h2> 미션 임파서블 </h2>
-    <p>도난당한 핵무기를 되찾아 오는 위험천만한 작전 중, 에단 헌트(톰 크루즈)는 임무를 포기하고, 팀원의 목숨을 구하는 선택을 한다. 이제, 핵무기는 문명을 무너뜨리려는 사악한 테러조직의 손에 넘어갔다. 세계를 멸망시킬 핵 재앙을 막기 위해 세계 최강 스파이기관, IMF의 에단 헌트와 정예 요원들(사이먼 페크, 빙 라메스, 레베카 퍼거슨)은 숙명의 라이벌, 중앙정보국 CIA의 상급 요원(헨리 카빌)과 불편한 동맹을 맺어야만 한다. 이보다 더 불가능한 미션은 없었다! 역대 최대 규모, 최강 액션을 기대하라!
-    </p>
+    <div id="grid">
+        <ol>
+            <li><a href="1.html" > 탑건</a></li>
+            <li><a href="2.html" > 미션 임파서블 </a></li>
+            <li><a href="3.html"> 엣지 오브 투모로우</a></li> 
+        </ol>
+        <div id="article">
+        <h2> 미션 임파서블 </h2>
+        <p>도난당한 핵무기를 되찾아 오는 위험천만한 작전 중, 에단 헌트(톰 크루즈)는 임무를 포기하고, 팀원의 목숨을 구하는 선택을 한다. 이제, 핵무기는 문명을 무너뜨리려는 사악한 테러조직의 손에 넘어갔다. 세계를 멸망시킬 핵 재앙을 막기 위해 세계 최강 스파이기관, IMF의 에단 헌트와 정예 요원들(사이먼 페크, 빙 라메스, 레베카 퍼거슨)은 숙명의 라이벌, 중앙정보국 CIA의 상급 요원(헨리 카빌)과 불편한 동맹을 맺어야만 한다. 이보다 더 불가능한 미션은 없었다! 역대 최대 규모, 최강 액션을 기대하라!
+        </p>
+        </div>
+    </div>
+        <p>
 
-    <p>
-
-        <div id="disqus_thread"></div>
-        <script>
-            /**
-            *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-            *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
-            /*
-            var disqus_config = function () {
-            this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-            this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-            };
-            */
-            (function() { // DON'T EDIT BELOW THIS LINE
-            var d = document, s = d.createElement('script');
-            s.src = 'https://my-site-t5utgxtal3.disqus.com/embed.js';
-            s.setAttribute('data-timestamp', +new Date());
-            (d.head || d.body).appendChild(s);
-            })();
+            <div id="disqus_thread"></div>
+            <script>
+                /**
+                *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+                /*
+                var disqus_config = function () {
+                this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+                this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                };
+                */
+                (function() { // DON'T EDIT BELOW THIS LINE
+                var d = document, s = d.createElement('script');
+                s.src = 'https://my-site-t5utgxtal3.disqus.com/embed.js';
+                s.setAttribute('data-timestamp', +new Date());
+                (d.head || d.body).appendChild(s);
+                })();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        
+        </p>
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+        (function(){
+        var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+        s1.async=true;
+        s1.src='https://embed.tawk.to/62bc21307b967b1179970c20/1g6ne39mb';
+        s1.charset='UTF-8';
+        s1.setAttribute('crossorigin','*');
+        s0.parentNode.insertBefore(s1,s0);
+        })();
         </script>
-        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-    
-    </p>
-<!--Start of Tawk.to Script-->
-<script type="text/javascript">
-    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-    (function(){
-    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-    s1.async=true;
-    s1.src='https://embed.tawk.to/62bc21307b967b1179970c20/1g6ne39mb';
-    s1.charset='UTF-8';
-    s1.setAttribute('crossorigin','*');
-    s0.parentNode.insertBefore(s1,s0);
-    })();
-    </script>
-    <!--End of Tawk.to Script-->
+        <!--End of Tawk.to Script-->
 
 </body>
 </html>
